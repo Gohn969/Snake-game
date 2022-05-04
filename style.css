@@ -5,12 +5,18 @@ body {
 }
 
 .grid {
-  width: 200px;
-  height: 200px;
   border: 2px solid black;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
-.grid div {
+.square {
   width: 20px;
   height: 20px;
+}
+
+.snake {
+  background: green;
 }
